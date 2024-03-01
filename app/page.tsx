@@ -30,10 +30,10 @@ export default function Page() {
           </div>
           <h2 className='pt-2 pb-2 text-xl font-medium'>Our Expertise:</h2>
 
-          <ol>
+          <ol className='list-decimal pl-10'>
           <li>
             <h2 className='pt-2 pb-2 text-md font-medium'>Web Development:</h2>
-              <ul>
+              <ul className='list-disc'>
               <li>PHP</li>
               <li>Python</li>
               <li>Laravel</li>
@@ -44,7 +44,7 @@ export default function Page() {
             </li>
             <li>
               <h2 className='pt-2 pb-2 text-md font-medium'>CRM/ERP/Accounting Solutions:</h2>
-              <ul>
+              <ul className='list-disc'>
               <li>Zoho CRM</li>
               <li>Xero API</li>
               <li>Infusionsoft</li>
@@ -57,7 +57,7 @@ export default function Page() {
             </li>
             <li>
               <h2 className='pt-2 pb-2 text-md font-medium'>API Integration:</h2>
-              <ul>
+              <ul className='list-disc'>
               <li>Seamless integration of diverse APIs to enhance functionality and connectivity.</li>
               <li>Google API</li>
               <li>Cloud Server Setup and Maintenance</li>
@@ -65,7 +65,7 @@ export default function Page() {
             </li>
             <li>
               <h2 className='pt-2 pb-2 text-md font-medium'>Database Management:</h2>
-              <ul>
+              <ul className='list-disc'>
               <li>MySQL</li>
               <li>PostgreSQL</li>
               <li>mongoDB</li>
@@ -73,7 +73,7 @@ export default function Page() {
             </li>
           </ol>
           <h2 className='pt-2 pb-2 text-xl font-medium'>Our Commitment:</h2>
-          <ul>
+          <ul className='list-disc pl-10'>
           <li>
             <strong>Innovation:</strong> We thrive on pushing the boundaries of technology to deliver innovative solutions that cater to the dynamic needs of businesses.
             </li>
@@ -90,11 +90,12 @@ export default function Page() {
             <strong>Transparent Communication:</strong> We believe in transparent and open communication, keeping our clients informed at every stage of the development process.
             </li>
           </ul>
-          
-          Whether you are looking to revamp your online presence, streamline business processes, or implement advanced CRM solutions, <strong>SRS Software Systems</strong> is your go-to partner. Join hands with us to embark on a journey of digital transformation and elevate your business to new heights.
+          <div className='pl-10 pt-10'>
+            Whether you are looking to revamp your online presence, streamline business processes, or implement advanced CRM solutions, <strong>SRS Software Systems</strong> is your go-to partner. Join hands with us to embark on a journey of digital transformation and elevate your business to new heights.
 
-          <p className='pt-5'>Write us at <Link href="mail:sunil@srsss.in" className='text-blue-800 rounded-md p-3 text-sm font-medium hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3'>sunil@srsss.in</Link> 
-          today to discuss how we can transform your ideas into reality and drive your business towards success.</p>
+            <p className='pt-5'>Write us at <Link href="mail:sunil@srsss.in" className='text-blue-800 rounded-md p-3 text-sm font-medium hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3'>sunil@srsss.in</Link> 
+            today to discuss how we can transform your ideas into reality and drive your business towards success.</p>
+          </div>
         </div>
       </div>
     </main>
