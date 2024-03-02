@@ -22,6 +22,14 @@ export default function Page() {
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
+          <Image 
+            src="/Sunil_Passport_Size_Photo.png"
+            width={400}
+            height={400}
+            alt='Director Photo'
+          />
+          <div className=''><strong>Sunil Kumar Rampukar Sahu</strong></div>
+          <div className=''><strong>Director</strong>, 9021297201</div>
         </div>
         <div className="fflex flex-col  gap-6 rounded-lg bg-gray-50 px-6 py-10 ">
           <div>
